@@ -20,7 +20,7 @@ import KoFiButton from "~/components/KoFiButton";
 import { playSound } from "~/components/Beeper";
 
 function Home(): JSX.Element {
-  const startCountdown = 21;
+  const startCountdown = 7;
   const [countdown, setCountdown] = useState(startCountdown);
   const [fetchTrigger, setFetchTrigger] = useState(0);
   const [isActive, setIsActive] = useState(false);
